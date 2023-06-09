@@ -1,0 +1,7 @@
+# poetry 
+poetry.lock
+/data
+/models
+
+# staging
+.vscode
