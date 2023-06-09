@@ -10,6 +10,10 @@ packages = [{include = "homework_1"}]
 python = "^3.10"
 pandas = "^2.0.2"
 dvc = "^2.58.2"
+argparse = "^1.4.0"
+nltk = "^3.8.1"
+gensim = "^4.3.1"
+poethepoet = "^0.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -18,3 +22,7 @@ ipykernel = "^6.23.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+install_nltk_libs = "sh support_scripts/install_nltk_libs.sh"
+prepare_data = "poetry run python utils/preprocess_text.py"

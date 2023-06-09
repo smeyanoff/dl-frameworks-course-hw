@@ -5,3 +5,4 @@ poetry.lock
 
 # staging
 .vscode
+__pycache__
