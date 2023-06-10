@@ -1,4 +1,5 @@
 [core]
     remote = myremote
+    autostage = true
 ['remote "myremote"']
     url = /home/dmitry/dvc/dl_frameworks_hw

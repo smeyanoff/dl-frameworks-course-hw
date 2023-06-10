@@ -6,3 +6,4 @@ poetry.lock
 # staging
 .vscode
 __pycache__
+/dvclive-optuna
