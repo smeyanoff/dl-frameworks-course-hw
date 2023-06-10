@@ -1,5 +1,5 @@
 outs:
-- md5: 2fa0da3099790ace4bcc3f2f1b2bcda0.dir
-  size: 1729
-  nfiles: 4
+- md5: a5905ca3076eee78c91aaafbfb3a010b.dir
+  size: 272
+  nfiles: 3
   path: dvclive-optuna
